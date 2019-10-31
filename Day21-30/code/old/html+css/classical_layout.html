@@ -7,7 +7,7 @@
 			* {
 				margin: 0;
 				padding: 0;
-				font-family: Verdana, '宋体'; 
+				font-family: Verdana, '宋体';
 			}
 			body {
 				width: 960px;
@@ -74,7 +74,7 @@
 		</style>
 	</head>
 	<body>
-		<div id="header">
+		<div id="header" onclick="this.innerHTML=Date()">
 			<h1>Logo</h1>
 			<div id="nav">
 				<ul>
@@ -98,4 +98,10 @@
 			&copy; Copyright 2011
 		</div>
 	</body>
+<script>
+function dom_function(id){
+	document.getElementById('header').innerHTML = 'hello word'
+}
+
+</script>
 </html>
