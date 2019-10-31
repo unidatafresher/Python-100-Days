@@ -40,5 +40,5 @@ def main():
     stu2.watch_av()
 
 
-if __name__ == '__main__':
-    main()
+
+main()
